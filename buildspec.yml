@@ -23,10 +23,10 @@ phases:
     commands:
     - echo Build start on 'date'
     - dotnet publish
-    - mv ./bin/Debug/net6.0/pipelines-dotnet-core.dll helloworld.dll
+    - mv ./bin/Debug/net6.0/pipelines-dotnet-core.dll ROOT.dll
     - echo Build ends on 'date'
 
 artifacts:
   files:
-    - helloworld.dll
+    - ROOT.dll
   name: hello-world-artifact

@@ -8,8 +8,8 @@ pipeline {
         AWS_EB_APP_NAME = "app-dotnet"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENVIRONMENT = "Appdotnet-env"
-        SONAR_IP = "54.226.50.200"
-        SONAR_TOKEN ="sqp_14416226962f90245e5910c676578eb661c04d62"
+        // SONAR_IP = "54.226.50.200"
+        // SONAR_TOKEN ="sqp_14416226962f90245e5910c676578eb661c04d62"
        
        
     }
