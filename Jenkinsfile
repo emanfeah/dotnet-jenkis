@@ -4,7 +4,7 @@ pipeline {
         AWS_ACCESS_KEY_ID = credentials('AWS_Access_KeyId')
         AWS_SECRET_ACCESS_KEY = credentials('AWS_Secret_Key')
         AWS_S3_BUCKET = "artifict-dotnet-repo"
-        ARTIFACT_NAME = "hello-world.dll"
+        ARTIFACT_NAME = "ROOT.dll"
         AWS_EB_APP_NAME = "app-dotnet"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
         AWS_EB_ENVIRONMENT = "Appdotnet-env-1"
